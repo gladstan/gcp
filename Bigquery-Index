@@ -1,0 +1,16 @@
+
+Big Query
+
+
+Partition, clustering, BQ command line utility
+
+1.Create  empty table dataset 
+2.insert new rows into table, iterate the rows
+3.Query public data save it in  cloud storage 
+4.Use the saved storage file create a table
+5.Create partition, clustering table
+6.Create big query table from existing table.
+7.Create a Partitioned table
+8.Create a clustering in table
+9. Add tags to columns and apply permission
+10.Add row based policy
