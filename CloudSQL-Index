@@ -1,0 +1,14 @@
+CloudSQL:
+Essentials:
+	1. Create Instance using gcloud command
+	2. Create Database/Table using gcloud command
+	3. Create a CloudFunction and write inside the table
+	4. Use secret manager to access database
+	5. Create a looker instance and try connecting the cloudsql
+Proficient:
+	6. Try loads of insert(a million) in to Cloudsql, check the number of instances available to write in cloudsql
+	7. Create a database backup and restore
+	8. Try changing the existing database version/region/instance size and check if the database is normal
+	9. Use a cloud sql proxy to conect cloudsql, create a container and access sql data via cloud sql proxy(https://stackoverflow.com/questions/40793222/connecting-to-multiple-cloudsql-instances-using-cloud-sql-proxy?rq=1)
+	10.Try to perform DB migrations
+Skilled:
