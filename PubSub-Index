@@ -2,7 +2,7 @@ Pubsub:
 
 Essentials:
 	1. Create a topic, subsciption using gcloud command
-	2. Send messagea and receive using subscription using cli
+	2. Send message and receive using subscription using cli
 	3. Ack/unack messages in pubsub, check if unacked messages are replayed
 	4. set message expiry and test it
 	5. push and pull samples using Cloud Function consumer
