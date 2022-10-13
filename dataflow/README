@@ -1,0 +1,6 @@
+Create Topic:
+gcloud pubsub topics create mytopic --message-storage-policy-allowed-regions=europe-west2
+
+Create Bucket:
+gcloud storage buckets create gs://ostrich_lion  --default-storage-class=Standard --location=europe-west2 --uniform-bucket-level-access
+
