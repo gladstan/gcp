@@ -1,6 +1,22 @@
 Create Topic:
+-------------
 gcloud pubsub topics create mytopic --message-storage-policy-allowed-regions=europe-west2
 
+
 Create Bucket:
+--------------
 gcloud storage buckets create gs://ostrich_lion  --default-storage-class=Standard --location=europe-west2 --uniform-bucket-level-access
 
+
+Creatiing Bigquery Dataset:
+---------------------------
+bq --location=europe-west2 mk -d mydemodata123
+
+
+Create Bigquery Table with Schema:
+----------------------------------
+bq mk \
+-t \
+--description "This is my table" \
+my-1-project-44429:mydemodata123.mydemotable \
+date:DATE,confirmed_cases:INTEGER,geo_id:STRING,country_territory_code:STRING
