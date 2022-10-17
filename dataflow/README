@@ -21,6 +21,15 @@ bq mk \
 my-1-project-44429:mydemodata123.mydemotable \
 date:DATE,confirmed_cases:INTEGER,geo_id:STRING,country_territory_code:STRING
 
+Trigger CF Creation:
+--------------------
+gcloud functions deploy pbtogcs \
+  --gen2 \
+  --region=europe-west2 \
+  --runtime=python39 \
+  --source=./pbtogcs-cf \
+  --entry-point=hello_pubsub \
+  --trigger-topic=bqtopb
 
 python:
 -------
