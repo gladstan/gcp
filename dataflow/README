@@ -20,3 +20,10 @@ bq mk \
 --description "This is my table" \
 my-1-project-44429:mydemodata123.mydemotable \
 date:DATE,confirmed_cases:INTEGER,geo_id:STRING,country_territory_code:STRING
+
+
+python:
+-------
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
