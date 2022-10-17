@@ -40,7 +40,7 @@ def run():
 
    p = beam.Pipeline(argv=argv)
 
-   query = "select date,confirmed_cases,geo_id,country_territory_code from `bigquery-public-data.covid19_ecdc.covid_19_geographic_distribution_worldwide` where geo_id='TD'"
+   query = "select date,confirmed_cases,geo_id,country_territory_code from `bigquery-public-data.covid19_ecdc.covid_19_geographic_distribution_worldwide` where geo_id='UK'"
 
    # find all lines that contain the searchTerm
    (p
